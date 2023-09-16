@@ -36,6 +36,7 @@ copyright: Copyright &copy; 2016 - 2023 Martin Donath
 # Configuration
 theme:
   name: material
+  # name: readthedocs
 #  custom_dir: 
   features:
     - announce.dismiss
@@ -64,13 +65,13 @@ theme:
     # - toc.integrate
   palette:
     - scheme: default
-      primary: indigo
+      primary: green
       accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
+      primary: teal
       accent: indigo
       toggle:
         icon: material/brightness-4
@@ -161,5 +162,5 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Prometheus: Prometheus.md
-  - VS Code: vs vode.md
+  - Kubernetes: kubeadmin_install_k8s.md
   
