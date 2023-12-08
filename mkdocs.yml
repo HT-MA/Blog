@@ -85,7 +85,6 @@ theme:
 
 # Plugins
 plugins:
-  - blog
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
@@ -163,4 +162,5 @@ nav:
   - Home: index.md
   - Prometheus: Prometheus.md
   - Kubernetes: kubeadmin_install_k8s.md
+  - virtualization: VM ESXI虚拟机迁移到KVM.md
   
