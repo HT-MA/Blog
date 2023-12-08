@@ -1,3 +1,8 @@
+## kubeadmin
+[kubeadmin官方文档]
+
+[kubeadmin官方文档]: https://kubernetes.io/zh-cn/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+
 ### 配置主机名
 ```shell
 hostnamectl set-hostname k8s-master
