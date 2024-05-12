@@ -82,6 +82,7 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+  highlightjs: true
 
 # Plugins
 plugins:
@@ -160,7 +161,30 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Prometheus: Prometheus.md
-  - Kubernetes: kubeadmin_install_k8s.md
+  - Linux: 
+    - linux/index.md
+    - apt: linux/apt.md
+  - Monitor: 
+    - monitor/index.md
+    - Prometheus: monitor/Prometheus.md
+  - Kubernetes: 
+    - k8s/index.md
+    - resource: k8s/kube_resource.md
+    - Install use kubeadm: 
+      - k8s/install/index.md
+      - k3s: k8s/install/K3s Install.md
   - virtualization: VM ESXI虚拟机迁移到KVM.md
-  
+  - docker:
+    - docker/overview.md
+    - Install: docker/install_docker.md
+    - Command: docker/docker_cmd.md
+  - python:
+    - python/overview.md
+    - one python scripts: python/example.md
+  - golang:
+    - golang/overview.md
+    - one go scripts: golang/example.md
+  - Ansible:
+    - ansible/overview.md
+    - module: ansible/module.md
+
