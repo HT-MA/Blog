@@ -167,6 +167,8 @@ nav:
   - Monitor: 
     - monitor/index.md
     - Prometheus: monitor/Prometheus.md
+    - fluentbit: monitor/fluentbit.md
+    - kube-events: monitor/kube-events.md
   - Kubernetes: 
     - k8s/index.md
     - resource: k8s/kube_resource.md
